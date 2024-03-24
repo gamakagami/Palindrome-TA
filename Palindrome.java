@@ -13,20 +13,19 @@ public class Palindrome {
     }
 
     public static void main(String[] args) {
-        // Test cases
-        String str1 = "aabbaa";
-        String str2 = "ab";
+        String a = "aabbaa";
+        String b = "ab";
 
-        if (isPalindrome(str1)) {
-            System.out.println(str1 + " is a palindrome.");
+        if (isPalindrome(a)) {
+            System.out.println(a + " is a palindrome.");
         } else {
-            System.out.println(str1 + " is not a palindrome.");
+            System.out.println(a + " is not a palindrome.");
         }
 
-        if (isPalindrome(str2)) {
-            System.out.println(str2 + " is a palindrome.");
+        if (isPalindrome(b)) {
+            System.out.println(b + " is a palindrome.");
         } else {
-            System.out.println(str2 + " is not a palindrome.");
+            System.out.println(b + " is not a palindrome.");
         }
     }
 }
